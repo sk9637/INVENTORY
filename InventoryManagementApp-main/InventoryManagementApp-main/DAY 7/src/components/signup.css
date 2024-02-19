@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caprasimo&family=Caveat:wght@400;500&family=Comforter&family=Dancing+Script:wght@500&family=Fasthand&family=Lilita+One&family=Lora:ital@1&display=swap');
+* {
+  font-family: 'Alfa Slab One', cursive;
+font-family: 'Caprasimo', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Lora', serif;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: antiquewhite;
+  background-image: url("D:\myapp\src\components\app2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-container1 {
+  width: 400px;
+  height: 450px;
+  background-color:lightgray;
+  padding: 20px;
+  /* background-color:gray;   */
+  border-radius: 20px;
+  border-width: 8em;
+  box-shadow: 10px 10px 50px 0 rgb(7, 7, 7);
+
+  /* background: transparent;     */
+  
+  border-radius: 20px;
+}
+.form-container1:hover{
+  box-shadow: 0 2px 6px 0 rgb(7, 7, 7);
+  border-radius: 20px;
+  /* border: 20px black; */
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color:black;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #968484;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  ;
+}
+
+/* Additional styling for responsiveness */
+
+@media (max-width: 480px) {
+  .form-container1 {
+    width: 90%;
+  }
+}

@@ -1,0 +1,113 @@
+.homeContainer {
+  height: 1000vh;
+  background-image: linear-gradient(to right top, #f3f9f9, #dafbfb, #bffcfc, #a1fdfd, #7bfefe, #7cfefe, #7cfdff, #7dfdff, #a7fcff, #d2faff, #f1faff, #ffffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar a {
+  color: rgb(1, 204, 255);
+}
+
+/* .navbar {
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  background-color: black;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: transparent;
+} */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:rgb(237, 237, 237);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  font-weight: bold;
+}
+
+.nav-items a {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-items li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-right: 10px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color:grey;
+  font-size: 26px;
+  transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  color: black;
+  border-radius: 15em;
+}
+
+button {
+  border: none;
+  background-color: #888;
+  padding: 8px 16px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6b6b;
+}
+
+button a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.content {
+  font-family: 'Courier New', Courier, monospace;
+  font-family: "Caveat", cursive;
+  font-family: "Comforter", cursive;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  color: black;
+}
+
+.button-known {
+  margin-top: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  background-color: rgb(0, 208, 255);
+}

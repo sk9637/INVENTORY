@@ -1,0 +1,144 @@
+/* App.css */
+.App {
+    text-align: center;
+    background-image: linear-gradient(to right top, #f3f9f9, #dafbfb, #bffcfc, #a1fdfd, #7bfefe, #7cfefe, #7cfdff, #7dfdff, #a7fcff, #d2faff, #f1faff, #ffffff);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* color: black; */
+  }
+  
+  .App-header {
+    /* background-color: black; */
+    padding: 20px;
+    /* color:black; */
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background: transparent;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .user-actions button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .cart-count {
+    background-color: #ff6d00;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  
+  .hero {
+    /* background-image: url('hero-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    color: black;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    background-color: #ff6d00;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    padding: 40px;
+  }
+  
+  .product-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-card img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product-details h3 {
+    font-size: 18px;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff6d00;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #2874f0;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+  }
+  

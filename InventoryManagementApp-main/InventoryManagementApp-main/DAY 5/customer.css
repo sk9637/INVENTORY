@@ -1,0 +1,25 @@
+.customer-page {
+    padding: 20px;
+  }
+  
+  .customer {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .customer h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .customer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .customer p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  

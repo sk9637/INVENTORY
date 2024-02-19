@@ -1,0 +1,63 @@
+
+    .about-cs{
+        margin-left: 130px;
+        margin-right: 90px;
+        background : transparent;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 70vh;
+        padding: 40px;
+        border-radius: 10px;
+    
+    }
+    .navbar{
+        z-index: 1;
+  height: 50px;
+  display: flex;
+  background-color: black;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: transparent;
+        background: transparent;
+    }
+
+    .ground-cs p{
+        color:black;
+        padding-top:30px;
+        font-size: 1.2rem;
+    }
+    .content-ffn{
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 70vh;
+        padding-top: -50px;
+        border-radius: 10px;
+        background: transparent;    
+        font-weight: 600;
+        font-size: 1.5rem;
+        font-family:'Lora', serif;
+
+    }
+    .content-ffn h1{
+        color:black;
+        padding-left: 250px;
+        padding-top: 10px;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('D:\myapp\src\components\app2.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    
